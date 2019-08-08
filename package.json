@@ -1,0 +1,43 @@
+{
+  "name": "crowdfunding",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ganache-cli": "^6.1.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.3",
+    "solc": "^0.4.24",
+    "truffle-hdwallet-provider": "^1.0.15",
+    "tslint-language-service": "^0.9.9",
+    "web3": "^1.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "eslintIgnore": [
+    "deploy.js",
+    "App.js",
+    "HomeSence.js"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
